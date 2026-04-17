@@ -1,30 +1,48 @@
 # GestorRH - Ecosistema Multiplataforma
 
-Bienvenido a la organización principal de **GestorRH**, un sistema centralizado e integral para la gestión de recursos humanos, control de turnos, ausencias y validación de fichajes con geovallado.
+Bienvenido a la organización oficial de **GestorRH**. Este ecosistema representa una solución integral y centralizada para la gestión de recursos humanos, automatizando el control de turnos, la tramitación de ausencias y la validación de fichajes mediante tecnologías de geovallado.
 
-## Nuestra Arquitectura
+![API Version](https://img.shields.io/badge/API-v1.0.1--stable-33cc33?style=flat-square&logo=spring)
+![Android Status](https://img.shields.io/badge/Android-en--desarrollo-3DDC84?style=flat-square&logo=android)
+![License](https://img.shields.io/badge/license-MIT-yellow?style=flat-square)
+![Architecture](https://img.shields.io/badge/Architecture-Clean%20%2B%20MVVM-blue?style=flat-square)
 
-Este proyecto está diseñado bajo una arquitectura cliente-servidor robusta, priorizando la seguridad, la escalabilidad y la facilidad de despliegue.
+## Hoja de Ruta del Proyecto
 
-### Backend Core (Desarrollado y Estable)
-El corazón del sistema es una API RESTful sólida y segura.
-* **Tecnología:** Java, Spring Boot, Spring Security (JWT)
-* **Base de Datos:** PostgreSQL
-* **Infraestructura:** Completamente dockerizado (Docker & Docker Compose) para entornos de desarrollo y producción.
-* [Ver Repositorio de la API](https://github.com/GestorRH-Multiplataforma/GestorRH-API)
+El sistema se divide en tres pilares fundamentales, diseñados para trabajar de forma sincronizada bajo un contrato de API robusto:
 
-### Clientes Multiplataforma (En Desarrollo / Próximamente)
-Consumiendo los endpoints de nuestra API central, el ecosistema se expandirá con interfaces nativas:
-* **Android:** Desarrollo nativo en Kotlin.
-* **Escritorio:** Aplicación de gestión administrativa en JavaFX.
+| Componente | Estado | Tecnología Principal | Propósito |
+| :--- | :--- | :--- | :--- |
+| [**Backend API**](https://github.com/GestorRH-Multiplataforma/GestorRH-API) | `v1.0.1 Stable` | Java 21 / Spring Boot 3 | Núcleo lógico, seguridad JWT y persistencia de datos. |
+| [**Cliente Android**](https://github.com/GestorRH-Multiplataforma/gestorrh-android) | `En Desarrollo` | Kotlin / Jetpack Compose | Interfaz nativa para empleados con validación GPS. |
+| **Cliente Escritorio** | `Próximamente` | JavaFX / C# | Gestión administrativa avanzada y reportes complejos. |
 
-## Tecnologías y Herramientas
+## Arquitectura y Estándares de Calidad
+
+Mantenemos un compromiso estricto con la excelencia técnica a través de todo el ecosistema:
+
+* **Clean Architecture & MVVM:** Aplicado tanto en el backend como en el cliente móvil para garantizar la escalabilidad y el desacoplamiento de la lógica de negocio.
+* **Seguridad Stateless:** Implementación de autenticación mediante tokens JWT y gestión de sesiones cifradas en el cliente.
+* **Persistencia y Resiliencia:** Uso de bases de datos relacionales (PostgreSQL) y sistemas de caché local (Room) para garantizar la disponibilidad de datos incluso sin conexión.
+* **Geovallado Inteligente:** Validación de ubicación en tiempo real mediante servicios de localización nativos para asegurar la integridad de los fichajes.
+
+## Metodología de Desarrollo
+
+Nuestra organización opera bajo flujos de trabajo profesionales para asegurar la integridad de la rama principal:
+
+1.  **CI/CD Automatizado:** Cada repositorio cuenta con pipelines (GitHub Actions) que verifican la compilación y ejecutan tests automáticos antes de permitir cambios.
+2.  **Norma de Oro:** Prohibición estricta de commits directos a `main`. Todo cambio requiere una *Pull Request* vinculada a su correspondiente *Issue* y aprobada por los checks de calidad.
+3.  **Versionado Semántico:** Seguimiento riguroso de **SemVer** para el control de hitos y compatibilidad entre los diferentes clientes y el servidor central.
+
+## Tecnologías Core
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 
----
-*Organización mantenida y desarrollada aplicando metodologías de CI/CD, Conventional Commits y entornos aislados.*
+***
+*GestorRH es un proyecto desarrollado con un enfoque en la arquitectura limpia y el despliegue agnóstico a la nube mediante contenedores. Para más información sobre cada componente, visita sus respectivos repositorios.*
+
