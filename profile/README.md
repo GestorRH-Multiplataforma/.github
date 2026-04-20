@@ -15,7 +15,7 @@ El sistema se divide en tres pilares fundamentales, diseñados para trabajar de 
 | :--- | :--- | :--- | :--- |
 | [**Backend API**](https://github.com/GestorRH-Multiplataforma/GestorRH-API) | `v1.0.1 Stable` | Java 21 / Spring Boot 3 | Núcleo lógico, seguridad JWT y persistencia de datos. |
 | [**Cliente Android**](https://github.com/GestorRH-Multiplataforma/gestorrh-android) | `En Desarrollo` | Kotlin / Jetpack Compose | Interfaz nativa para empleados con validación GPS. |
-| **Cliente Escritorio** | `Próximamente` | JavaFX / C# | Gestión administrativa avanzada y reportes complejos. |
+| [**Cliente Escritorio**](https://github.com/GestorRH-Multiplataforma/GestorRH-Escritorio) | `Próximamente` | JavaFX / CSS | Gestión administrativa avanzada y reportes complejos. |
 
 ## Arquitectura y Estándares de Calidad
 
