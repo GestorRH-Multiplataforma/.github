@@ -36,7 +36,7 @@ El sistema se divide en tres pilares fundamentales, diseñados para trabajar de 
  
 ## Arquitectura del Sistema
  
-![Arquitectura del Sistema](./assets/arquitectura_sistema.png)
+![Arquitectura del Sistema](./profile/assets/arquitectura_sistema.png)
  
 Todos los clientes se comunican exclusivamente con la API REST central mediante tokens JWT, sin acceso directo a la base de datos. Esto garantiza una arquitectura distribuida, segura y agnóstica al cliente.
  
