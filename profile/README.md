@@ -6,6 +6,8 @@ Bienvenido a la organización oficial de **GestorRH**. Este ecosistema represent
 ![Android](https://img.shields.io/badge/Android-v1.0.1--stable-brightgreen?style=flat-square&logo=android)
 ![Escritorio](https://img.shields.io/badge/Escritorio-v1.0.0--stable-brightgreen?style=flat-square&logo=openjdk)
 ![Architecture](https://img.shields.io/badge/Architecture-Clean%20%2B%20MVVM-blue?style=flat-square)
+
+> **[Portal de descargas](https://gestorrh-multiplataforma.github.io/github.io/)** — App Android para empleados · Panel de escritorio para empresas
  
 ---
  
@@ -64,7 +66,6 @@ Todos los clientes se comunican exclusivamente con la API REST central mediante 
 | [**README — Backend API**](https://github.com/GestorRH-Multiplataforma/GestorRH-API#readme) | Guía completa de despliegue, variables de entorno, tests y versionado de la API. |
 | [**README — Cliente Android**](https://github.com/GestorRH-Multiplataforma/gestorrh-android#readme) | Configuración del entorno, arquitectura y roadmap del cliente móvil. |
 | [**README — Cliente Escritorio**](https://github.com/GestorRH-Multiplataforma/GestorRH-Escritorio#readme) | Estado del proyecto, roadmap por épicas y guía de instalación del cliente de escritorio. |
-| [**Landing — Descargas**](https://gestorrh-multiplataforma.github.io/github.io/) | Portal de descargas del ecosistema. APK Android, instaladores macOS (.dmg) y Windows (.msi). |
  
 ---
  
