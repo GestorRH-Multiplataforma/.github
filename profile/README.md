@@ -4,7 +4,7 @@ Bienvenido a la organización oficial de **GestorRH**. Este ecosistema represent
  
 ![API](https://img.shields.io/badge/API-v1.1.3--stable-brightgreen?style=flat-square&logo=spring)
 ![Android](https://img.shields.io/badge/Android-v1.0.1--stable-brightgreen?style=flat-square&logo=android)
-![Escritorio](https://img.shields.io/badge/Escritorio-en%20desarrollo-orange?style=flat-square&logo=openjdk)
+![Escritorio](https://img.shields.io/badge/Escritorio-v1.0.0--stable-brightgreen?style=flat-square&logo=openjdk)
 ![Architecture](https://img.shields.io/badge/Architecture-Clean%20%2B%20MVVM-blue?style=flat-square)
  
 ---
@@ -17,7 +17,7 @@ El sistema se divide en tres pilares fundamentales, diseñados para trabajar de 
 | :--- | :--- | :--- | :--- |
 | [**Backend API**](https://github.com/GestorRH-Multiplataforma/GestorRH-API) | `v1.1.3 Stable` | Java 21 / Spring Boot 3 | Núcleo lógico, seguridad JWT y persistencia de datos. |
 | [**Cliente Android**](https://github.com/GestorRH-Multiplataforma/gestorrh-android) | `v1.0.1 Stable` | Kotlin / Jetpack Compose | Interfaz nativa para empleados con validación GPS. |
-| [**Cliente Escritorio**](https://github.com/GestorRH-Multiplataforma/GestorRH-Escritorio) | `En Desarrollo` | JavaFX 21 | Panel administrativo con reportes y gestión avanzada. |
+| [**Cliente Escritorio**](https://github.com/GestorRH-Multiplataforma/GestorRH-Escritorio) | `v1.0.0 Stable` | JavaFX 21 | Panel administrativo con reportes y gestión avanzada. |
  
 ---
  
@@ -64,7 +64,7 @@ Todos los clientes se comunican exclusivamente con la API REST central mediante 
 | [**README — Backend API**](https://github.com/GestorRH-Multiplataforma/GestorRH-API#readme) | Guía completa de despliegue, variables de entorno, tests y versionado de la API. |
 | [**README — Cliente Android**](https://github.com/GestorRH-Multiplataforma/gestorrh-android#readme) | Configuración del entorno, arquitectura y roadmap del cliente móvil. |
 | [**README — Cliente Escritorio**](https://github.com/GestorRH-Multiplataforma/GestorRH-Escritorio#readme) | Estado del proyecto, roadmap por épicas y guía de instalación del cliente de escritorio. |
-| [**Descarga APK Android**](https://gestorrh-multiplataforma.github.io/github.io/) | Página de descarga del cliente Android con la última versión estable disponible. |
+| [**Landing — Descargas**](https://gestorrh-multiplataforma.github.io/github.io/) | Portal de descargas del ecosistema. APK Android, instaladores macOS (.dmg) y Windows (.msi). |
  
 ---
  
