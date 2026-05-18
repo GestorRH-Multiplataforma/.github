@@ -2,7 +2,7 @@
  
 Bienvenido a la organización oficial de **GestorRH**. Este ecosistema representa una solución integral y centralizada para la gestión de recursos humanos, automatizando el control de turnos, la tramitación de ausencias y la validación de fichajes mediante tecnologías de geovallado.
  
-![API](https://img.shields.io/badge/API-v1.1.3--stable-brightgreen?style=flat-square&logo=spring)
+![API](https://img.shields.io/badge/API-v1.2.0--stable-brightgreen?style=flat-square&logo=spring)
 ![Android](https://img.shields.io/badge/Android-v1.0.1--stable-brightgreen?style=flat-square&logo=android)
 ![Escritorio](https://img.shields.io/badge/Escritorio-v1.0.0--stable-brightgreen?style=flat-square&logo=openjdk)
 ![Architecture](https://img.shields.io/badge/Architecture-Clean%20%2B%20MVVM-blue?style=flat-square)
@@ -17,7 +17,7 @@ El sistema se divide en tres pilares fundamentales, diseñados para trabajar de 
  
 | Componente | Estado | Tecnología Principal | Propósito |
 | :--- | :--- | :--- | :--- |
-| [**Backend API**](https://github.com/GestorRH-Multiplataforma/GestorRH-API) | `v1.1.3 Stable` | Java 21 / Spring Boot 3 | Núcleo lógico, seguridad JWT y persistencia de datos. |
+| [**Backend API**](https://github.com/GestorRH-Multiplataforma/GestorRH-API) | `v1.2.0 Stable` | Java 21 / Spring Boot 3 | Núcleo lógico, seguridad JWT y persistencia de datos. |
 | [**Cliente Android**](https://github.com/GestorRH-Multiplataforma/gestorrh-android) | `v1.0.1 Stable` | Kotlin / Jetpack Compose | Interfaz nativa para empleados con validación GPS. |
 | [**Cliente Escritorio**](https://github.com/GestorRH-Multiplataforma/GestorRH-Escritorio) | `v1.0.0 Stable` | JavaFX 21 | Panel administrativo con reportes y gestión avanzada. |
  
