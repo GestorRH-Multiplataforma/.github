@@ -2,11 +2,11 @@
  
 Bienvenido a la organización oficial de **GestorRH**. Este ecosistema representa una solución integral y centralizada para la gestión de recursos humanos, automatizando el control de turnos, la tramitación de ausencias y la validación de fichajes mediante tecnologías de geovallado.
  
-![API](https://img.shields.io/badge/API-v1.2.0--stable-brightgreen?style=flat-square&logo=spring)
-![Android](https://img.shields.io/badge/Android-v1.0.1--stable-brightgreen?style=flat-square&logo=android)
+![API](https://img.shields.io/badge/API-v1.4.0--stable-brightgreen?style=flat-square&logo=spring)
+![Android](https://img.shields.io/badge/Android-v1.1.0--stable-brightgreen?style=flat-square&logo=android)
 ![Escritorio](https://img.shields.io/badge/Escritorio-v1.0.0--stable-brightgreen?style=flat-square&logo=openjdk)
 ![Architecture](https://img.shields.io/badge/Architecture-Clean%20%2B%20MVVM-blue?style=flat-square)
-
+ 
 > **[Portal de descargas](https://gestorrh-multiplataforma.github.io/github.io/)** — App Android para empleados · Panel de escritorio para empresas
  
 ---
@@ -17,22 +17,43 @@ El sistema se divide en tres pilares fundamentales, diseñados para trabajar de 
  
 | Componente | Estado | Tecnología Principal | Propósito |
 | :--- | :--- | :--- | :--- |
-| [**Backend API**](https://github.com/GestorRH-Multiplataforma/GestorRH-API) | `v1.2.0 Stable` | Java 21 / Spring Boot 3 | Núcleo lógico, seguridad JWT y persistencia de datos. |
-| [**Cliente Android**](https://github.com/GestorRH-Multiplataforma/gestorrh-android) | `v1.0.1 Stable` | Kotlin / Jetpack Compose | Interfaz nativa para empleados con validación GPS. |
+| [**Backend API**](https://github.com/GestorRH-Multiplataforma/GestorRH-API) | `v1.4.0 Stable` | Java 21 / Spring Boot 3 | Núcleo lógico, seguridad JWT y persistencia de datos. |
+| [**Cliente Android**](https://github.com/GestorRH-Multiplataforma/gestorrh-android) | `v1.1.0 Stable` | Kotlin / Jetpack Compose | Interfaz nativa para empleados con validación GPS. |
 | [**Cliente Escritorio**](https://github.com/GestorRH-Multiplataforma/GestorRH-Escritorio) | `v1.0.0 Stable` | JavaFX 21 | Panel administrativo con reportes y gestión avanzada. |
  
 ---
  
 ## Tecnologías Core
  
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
-![JavaFX](https://img.shields.io/badge/JavaFX-007396?style=for-the-badge&logo=openjdk&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+**Backend**
+ 
+![Java](https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=flat-square&logo=docker&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
+ 
+**Cliente Android**
+ 
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white)
+![Android](https://img.shields.io/badge/Android_SDK-3DDC84?style=flat-square&logo=android&logoColor=white)
+![Room](https://img.shields.io/badge/Room_DB-4285F4?style=flat-square&logo=android&logoColor=white)
+![Retrofit](https://img.shields.io/badge/Retrofit_2-48B983?style=flat-square&logo=square&logoColor=white)
+![OkHttp](https://img.shields.io/badge/OkHttp_4-48B983?style=flat-square&logo=square&logoColor=white)
+ 
+**Cliente Escritorio**
+ 
+![Java](https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![JavaFX](https://img.shields.io/badge/JavaFX_21-007396?style=flat-square&logo=openjdk&logoColor=white)
+![Retrofit](https://img.shields.io/badge/Retrofit_2-48B983?style=flat-square&logo=square&logoColor=white)
+![OkHttp](https://img.shields.io/badge/OkHttp_4-48B983?style=flat-square&logo=square&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
+ 
+**Transversal**
+ 
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
  
 ---
  
@@ -49,6 +70,8 @@ Todos los clientes se comunican exclusivamente con la API REST central mediante 
 **Clean Architecture & MVVM** — Aplicado en todos los componentes del ecosistema para garantizar la separación de responsabilidades, la testabilidad y la escalabilidad a largo plazo.
  
 **Seguridad Stateless** — Autenticación basada en tokens JWT con gestión de sesiones cifradas en los clientes (EncryptedSharedPreferences en Android, interceptores en JavaFX) y renovación automática ante expiración.
+ 
+**Control de Acceso por Rol (RBAC)** — El ecosistema implementa navegación y lógica condicional según el rol del empleado (`EMPLEADO`, `SUPERVISOR`, `EMPRESA`), con persistencia del rol en sesión para arranques en frío. El rol SUPERVISOR dispone de un módulo completo de gestión de equipo: cuadrante de departamento, modificación de fichajes con auditoría y validación de ausencias con aprobación/rechazo.
  
 **Geovallado Inteligente** — Validación de ubicación GPS en tiempo real mediante `FusedLocationProviderClient` para garantizar la integridad de los fichajes presenciales dentro del radio configurado por la empresa.
  
